@@ -1,0 +1,154 @@
+body{
+    font-family:'Roboto';
+}
+/*header start*/
+header nav{
+ background: #fff;
+ box-shadow: 0px 0px 5px #4444;
+}
+.imga{
+    width: 80px;
+}
+.ad{
+    width: 280px;
+    margin-right:50px;
+    border-radius:10px;
+    position: relative;
+    
+}
+form .input{
+    border-radius: 50px;
+}
+form button {
+    border-radius: 50px;
+    padding: 5px 30px;
+    position: absolute;
+    left:163px; 
+    color:#E41216;
+    top: 0;
+    bottom: 0;
+    border:1px solid #E41216;
+    background-color: #fff;
+    transition:1s;
+   
+}
+form button:hover{
+     background-color:#E41216;
+     color: white;
+     
+    
+}
+.nav-item .f{
+    font-size: 20px;
+   
+    margin-left: 30px;
+}
+.nav-item .ff{
+    margin-right: 60px;
+}
+
+@media screen and (min-width:768px){
+    .fffa{
+        display: none;
+    }
+    
+}
+/*header end*/
+/*slider section starts*/
+.sl{
+    background-color:rgb(248, 243, 243);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.slider-text{
+    padding-left: 30px;
+}
+.slider-text h2{
+    font-size: 68px;
+    font-weight: 600;
+   
+    
+}
+.icon{
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+/*slider section ends*/
+/*category section starts*/
+.section-title h2{
+    text-shadow: 1px 1px 2px #4444;
+}
+.category-product{
+    padding-top:40px;
+}
+.category-product{
+    background-color: #f7f7f7f7;
+}
+.card{
+    border:1px solid black;
+    margin-bottom: 40px;
+}
+
+
+.card-body h4{
+ margin-top: 20px;
+ margin-bottom: 20px;
+  
+}
+.card-body h6{
+    margin-bottom: 20px;
+}
+.card-body img{
+   height: 240px;
+   width:100%;
+}
+
+/*category section ends*/
+/*brand section starts*/
+.banner-section{
+ margin-bottom: 30px;
+}
+.item .ii{
+ width:300px;
+}
+.item{
+    height: 248px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    
+}
+.item button{
+    background-color:#E41216;
+    border: 1px solid #E41216;
+    color:white;
+    padding: 6px;
+    border-radius: 10px;
+    transform: 1s;
+}
+.item button:hover{
+    color: #E41216;
+    background-color: white;
+}
+.i1{
+    background-color: #ecececf7;
+}
+.i2{
+    background-color:#FDD525;
+}
+
+.i1 .text p{
+ color:#198754;
+}
+.i2 .text p{
+    color:#0D0805;
+}
+.item .text{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.item .text h2{
+    color: #E41216;
+}
+/*brand section ends*/
